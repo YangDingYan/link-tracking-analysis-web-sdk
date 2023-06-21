@@ -32,7 +32,6 @@ const router = createRouter({
 router.beforeEach(async(to, from, next) => {
   // const user = store.getters.getAccountInfo.adminUser;
   // store.commit("SET_DEFAULT_ORGANIZATION", store.getters.getAccountInfo);
-  debugger
   linkTrackingTools.setOptions({
     ...linkTrackingTools,
     // tracePageName: to.name,
